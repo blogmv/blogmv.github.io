@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bit-3 {
-  width: 30.33333333333333%;
+  width: 31.33333333333333%;
   margin-right: 3%;
 }
 
@@ -245,7 +245,7 @@ nav#principal ul li:first-child {
 
 nav#principal ul li a:hover,
 nav#principal ul li.active a {
-  color: #75b8ff;
+  color: #efd274;
 }
 
 .hello .context {
@@ -331,6 +331,6 @@ nav#principal ul li.active a {
  */
 @media (max-width: 1024px) {
   p.responsive {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 }
