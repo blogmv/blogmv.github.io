@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #0071b5;
+  color: #203041;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #ab9b75;
+  color: #0071b5;
 }
 
 a[href*="//"]:not([href*="blogmv.github.io/blogmv-site"]):after {
@@ -36,8 +36,9 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #002a41;
+  color: #203041;
   font-family: "Helvetica Neue", "PT Sans", sans-serif;
+  font-weight: 300;
 }
 
 /**
@@ -138,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
  * Common classes
  */
 .context {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -173,6 +174,10 @@ h1, h2, h3, h4, h5, h6 {
   animation: bounce 2s infinite;
 }
 
+.background-gray {
+  background-color: #fcfcfc;
+}
+
 .left {
   float: left;
 }
@@ -191,12 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bit-3 {
-  width: 25%;
-  margin-right: 12.5%;
-}
-
-.background-gray {
-  background-color: #fcfcfc;
+  width: 30.33333333333333%;
+  margin-right: 3%;
 }
 
 /**
@@ -221,7 +222,7 @@ nav#principal {
 
 nav#principal ul {
   margin: 0;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 nav#principal ul li {
@@ -244,7 +245,7 @@ nav#principal ul li:first-child {
 
 nav#principal ul li a:hover,
 nav#principal ul li.active a {
-  color: #efd274;
+  color: #75b8ff;
 }
 
 .hello .context {
@@ -328,8 +329,8 @@ nav#principal ul li.active a {
 /**
  * Media queries for responsivenesses.
  */
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   p.responsive {
-    font-size: 1em !important;
+    font-size: 1.2em;
   }
 }
