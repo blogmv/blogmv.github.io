@@ -29,7 +29,7 @@ a[href*="//"]:not([href*="blogmv.github.io/blogmv-site"]):after {
 
 p {
   color: #666;
-  font-family: "Source Sans Pro", "Crimson Text", serif;
+  font-family: "Source Sans Pro", serif;
   line-height: 1.6em;
   margin: 1em 0;
   font-weight: 200;
