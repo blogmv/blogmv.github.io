@@ -1,0 +1,26 @@
+{
+  "name": "blogmv-site",
+  "version": "0.0.1",
+  "homepage": "http://blogmv.github.io/",
+  "description": "An open-source project to teach the world how to design high scalable web applications based on SPA structure with a solid technology background.",
+  "keywords": [
+    "spa",
+    "backbone.js",
+    "blog",
+    "mvc"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">= 2.x",
+    "fullpage.js": ">= 2.x",
+    "fontawesome": ">= 4.x"
+  },
+  "authors": [
+    "chiefGui (https://github.com/chiefGui)",
+    "zigolis (https://github.com/zigolis)"
+  ],
+  "ignore": [
+    "**/.*",
+    "assets/vendor"
+  ]
+}

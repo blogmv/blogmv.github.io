@@ -1,0 +1,339 @@
+/**
+ * Common HTML architecture styles
+ */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #647e72;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #d4bd84;
+}
+
+a[href*="//"]:not([href*="blogmv.github.io/blogmv-site"]):after {
+  font-family: FontAwesome;
+  content: "\f08e";
+  font-size: 0.5em;
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+}
+
+p {
+  color: #666;
+  font-family: "Crimson Text", serif;
+  line-height: 1.6em;
+  margin: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #647e72;
+  font-family: "PT Sans", sans-serif;
+}
+
+/**
+ * Bounce keyframes
+ */
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-ms-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/**
+ * Common classes
+ */
+.context {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.context p {
+  font-size: 1.4em;
+}
+
+.context p.smaller {
+  font-size: 1.2em;
+}
+
+.context hr {
+  border: none;
+  border-top: 1px solid #f2f2f2;
+}
+
+.arrow {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIHBvaW50cz0iMjEsOC41IDEyLDE3LjUgMyw4LjUgIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+);
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -15px;
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text-muted {
+  color: #e1e1e1;
+}
+
+.bit-2 {
+  width: 40%;
+  margin-right: 20%;
+}
+
+.bit-3 {
+  width: 25%;
+  margin-right: 12.5%;
+}
+
+.background-gray {
+  background-color: #fcfcfc;
+}
+
+/**
+ * This is a rijack to remove the gutter
+ * of the last item of each frame layer.
+ */
+.frame div[class^="bit"]:last-child {
+  margin-right: 0;
+}
+
+/**
+ * BlogMV application specific styles
+ */
+nav#principal {
+  background-image: url("../img/navigator_background.jpg");
+  width: 100%;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+nav#principal ul {
+  margin: 0;
+  padding: 0 40px;
+}
+
+nav#principal ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+nav#principal ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+nav#principal ul li:first-child {
+  margin: 0;
+}
+
+nav#principal ul li a:hover,
+nav#principal ul li.active a {
+  color: #efd274;
+}
+
+.hello .context {
+  width: 500px;
+}
+
+.hello .context p {
+  text-align: justify;
+}
+
+.hello h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+}
+
+.understand h2 {
+  font-size: 2em;
+}
+
+.understand p {
+  text-align: left;
+}
+
+.download h1 {
+  margin-top: 0;
+}
+
+#technology-options > li {
+  list-style: none;
+  border-top: 1px solid #f2f2f2;
+  padding: 40px 0;
+}
+
+#technology-options > li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+#technology-options li a.title {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#technology-options li .links ul {
+  padding: 0;
+}
+
+#technology-options li .links ul li {
+  display: inline-block;
+}
+
+#technology-options li .links li:before {
+  content: "|";
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#technology-options li .links li:first-child:before {
+  display: none;
+}
+
+.collaborate .collaborator {
+  display: inline-block;
+}
+
+.collaborate h2 {
+  padding-top: 20px;
+}
+
+.collaborate .collaborator img {
+  border-radius: 5px;
+}
+
+.collaborate .collaborator a {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+/**
+ * Media queries for responsivenesses.
+ */
+@media (max-width: 1280px) {
+  p.responsive {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 1440px) {
+  p.responsive {
+    font-size: 1.2em;
+  }
+}

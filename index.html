@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta description="O blogMV* é um projeto open-source que pretende ensinar diferentes maneiras de se implementar SPA utilizando tecnologias modernas como o Backbone.js">
+  <link rel="stylesheet" href="assets/vendor/normalize.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome/css/font-awesome.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="assets/vendor/lemonade.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="assets/css/screen.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="assets/vendor/fullpage.js/jquery.fullPage.css" media="screen" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans|Open+Sans:300,300italic,700|Crimson+Text" rel="stylesheet" type="text/css">
+  <title>blogMV*</title>
+</head>
+<body>
+  <nav id="principal">
+    <ul id="navigator" class="left">
+      <li data-menuanchor="hello" class="active"><a href="#hello">Introdução</a></li>
+      <li data-menuanchor="understand"><a href="#understand">Entenda</a></li>
+      <li data-menuanchor="download"><a href="#download">Download</a></li>
+      <li data-menuanchor="collaborate"><a href="#collaborate">Colabore</a></li>
+    </ul>
+
+    <ul id="vendor" class="right">
+      <li><a href="https://github.com/blogmv" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+  <div id="app">
+    <section class="section hello">
+      <div class="context">
+        <h1>blogMV*</h1>
+        <p>
+          Eis aqui um projeto de <a href="http://pt.wikipedia.org/wiki/C%C3%B3digo_aberto" target="_blank">código-aberto</a> minimalista,
+          criado por <a href="https://github.com/orgs/blogmv/people" target="_blank">brasileiros</a>,
+          que quer ensinar você a escrever <a href="http://en.wikipedia.org/wiki/Single-page_application" target="_blank">SPA</a>
+          utilizando diferentes implementações de
+          <a href="http://www.infoq.com/research/top-javascript-mvc-frameworks/" target="_blank">plataformas front-end MV*</a>
+          em um cenário prático sobre um <a href="https://github.com/blogmv/baby-steps" target="_blank">esqueleto comum</a>.
+        </p>
+
+        <div class="arrow animated bounce"></div>
+      </div>
+    </section>
+    <section class="section understand background-gray">
+      <div class="context">
+        <div class="frame">
+          <div class="bit-3">
+            <h1>O quê?</h1>
+
+            <p class="responsive">
+              O blogMV* é uma fundação brasileira de repositórios
+              no GitHub que visa ensinar a criação de aplicações de página única
+              utilizando plataformas e/ou frameworks modernos como o
+              <a href="http://backbonejs.org/" target="_blank">Backbone.js</a>
+              totalmente em português.
+            </p>
+
+            <p class="responsive">
+              Nos inspiramos inicialmente no
+              <a href="http://todomvc.com/" target="_blank">TodoMVC</a>, mas
+              trazemos à realidade um cenário bem mais rotineiro de
+              aplicabilidade.
+            </p>
+          </div>
+          <div class="bit-3">
+            <h1>Por quê?</h1>
+
+            <p class="responsive">
+              Queremos contribuir para o crescimento profissional da comunidade
+              como um todo, aumentando o engajamento e envolvimento da mesma em
+              discussões, projetos e encontros.
+            </p>
+          </div>
+          <div class="bit-3">
+            <h1>Para quem?</h1>
+            <p class="responsive">
+              Estamos num estágio inicial. Portanto, resolvemos problemas para
+              quem tem curiosidade ou de fato quer aprender Backbone.js,
+              mas incentivamos você a <a href="#collaborate">colaborar</a> para
+              o projeto introduzindo a sua própria implementação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section download">
+      <div class="context">
+        <div class="frame">
+          <div class="bit-2">
+            <h1>Sirva-se com as tecnologias desejadas</h1>
+            <p>
+              Ao lado, clique em algum dos links e divirta-se no repositório
+              oficial para explorar, aprender ou trocar ideias.
+            </p>
+          </div>
+          <div class="bit-2">
+            <ul id="technology-options">
+              <li>
+                <h2>Backbone.js e Require.js</h2>
+
+                <nav class="links">
+                  <ul>
+                    <li><a href="https://github.com/blogmv/backbone-require" target="_blank">Repositório</a></li>
+                    <li><a href="http://www.zigolis.com.br/blog/desenvolvendo-spa-backbone-require-parte-1/" target="_blank">Como usar</a></li>
+                  </ul>
+                </nav>
+              </li>
+              <li>
+                <h2>Backbone.js e Browserify</h2>
+
+                <nav class="links">
+                  <ul>
+                    <li><a href="https://github.com/blogmv/backbone-require" target="_blank">Repositório</a></li>
+                  </ul>
+                </nav>
+              </li>
+              <li>
+                <h2>Backbone.js, Marionette.js e Browserify</h2>
+
+                <p class="text-muted">
+                  Em desenvolvimento.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section collaborate background-gray">
+      <div class="context">
+        <div class="frame">
+          <div class="bit-2">
+            <h1>Deseja colaborar?</h1>
+            <p class="responsive">
+              Você trabalha diariamente com alguma plataforma e/ou framework
+              como o Backbone, Angular, Ember, React, Ractive ou similar?
+            </p>
+
+            <p class="responsive">
+              Se sim, então fique à vontade para clonar o
+              <a href="https://github.com/blogmv/baby-steps" target="_blank">esqueleto</a>
+              do blogMV* e então criar uma aplicação sobre ele utilizando a sua
+              tecnologia front-end moderna favorita.
+            </p>
+
+            <hr>
+
+            <h2>Premissa básica</h2>
+            <p class="smaller">
+              Por questões didáticas, é necessário que você crie um artigo
+              explicando o passo-a-passo do que ocorre na sua implementação
+              &ndash; é através dele que a comunidade vai aprender e debater.
+            </p>
+          </div>
+          <div class="bit-2">
+            <h2>Colaboradores</h2>
+
+            <p class="smaller">
+              Abaixo, uma lista dos colaboradores ativos do projeto. Queremos
+              que você seja o próximo a aparecer aqui, ein?
+            </p>
+
+            <section id="collaborators">
+              <div class="collaborator">
+                <a href="https://github.com/fjorgemota" target="_blank"></a>
+                <img src="assets/img/colaborators/fjorgemota.jpg" alt="Fernando Jorge Mota">
+              </div>
+              <div class="collaborator">
+                <a href="https://github.com/zigolis" target="_blank"></a>
+                <img src="assets/img/colaborators/zigolis.jpg" alt="Gabriel G. Zigolis">
+              </div>
+              <div class="collaborator">
+                <a href="https://github.com/chiefgui" target="_blank"></a>
+                <img src="assets/img/colaborators/oderdenge.jpg" alt="Guilherme Oderdenge">
+              </div>
+              <div class="collaborator">
+                <a href="https://github.com/renancarvalho" target="_blank"></a>
+                <img src="assets/img/colaborators/rcarvalho.jpg" alt="Renan Carvalho">
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-54273061-1");
+      pageTracker._trackPageview();
+    } catch(e) {
+      throw new Error(e.name + ' – ' + e.message);
+    }
+  </script>
+
+  <script type="text/javascript" src="assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/fullpage.js/vendors/jquery.easings.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/jquery.slimscroll/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/fullpage.js/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
