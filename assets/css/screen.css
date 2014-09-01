@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #647e72;
+  color: #0071b5;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #d4bd84;
+  color: #ab9b75;
 }
 
 a[href*="//"]:not([href*="blogmv.github.io/blogmv-site"]):after {
@@ -29,14 +29,15 @@ a[href*="//"]:not([href*="blogmv.github.io/blogmv-site"]):after {
 
 p {
   color: #666;
-  font-family: "Crimson Text", serif;
+  font-family: "Source Sans Pro", "Crimson Text", serif;
   line-height: 1.6em;
   margin: 1em 0;
+  font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #647e72;
-  font-family: "PT Sans", sans-serif;
+  color: #002a41;
+  font-family: "Helvetica Neue", "PT Sans", sans-serif;
 }
 
 /**
@@ -212,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
 nav#principal {
   background-image: url("../img/navigator_background.jpg");
   width: 100%;
-  padding: 10px 0;
+  height: 60px;
+  line-height: 60px;
   position: absolute;
   z-index: 9999;
 }
@@ -328,12 +330,6 @@ nav#principal ul li.active a {
  */
 @media (max-width: 1280px) {
   p.responsive {
-    font-size: 1.1em;
-  }
-}
-
-@media (max-width: 1440px) {
-  p.responsive {
-    font-size: 1.2em;
+    font-size: 1em !important;
   }
 }
